@@ -42,6 +42,7 @@ body {
   /* background-color: red; */
   margin-right: 5%;
   display: flex;
+  gap: 0.5rem;
   /* flex-shrink: 0; */
 }
 
@@ -54,9 +55,20 @@ body {
   transition: 0.3s;
 }
 
+.nav-link:hover {
+  cursor: pointer;
+}
+
 .products {
   padding: 0.8rem 2.8rem;
+  border-radius: 3rem;
+  /* background-color: red; */
   color: #222;
+}
+
+.products:hover {
+  background-color: grey;
+  color: #5ec576;
 }
 
 .contactus {
@@ -64,4 +76,9 @@ body {
   border-radius: 3rem;
   background-color: #5ec576;
   color: #222;
+}
+
+.contactus:hover {
+  background-color: grey;
+  color: #5ec576;
 }
